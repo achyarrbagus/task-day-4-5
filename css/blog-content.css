@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 150px;
+}
+article {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 150vh;
+}
+.title-blog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.header {
+  display: flex;
+
+  justify-content: center;
+  height: auto;
+  column-gap: 10px;
+}
+.header .section-left {
+  flex: 60%;
+  justify-content: left;
+  display: flex;
+  background-color: bisque;
+}
+.section-left img {
+  width: 100%;
+}
+.header .section-right {
+  flex: 30%;
+  height: 300px;
+}
+.duration-section {
+  margin: 20px 0;
+}
+.section-technology {
+  margin: 10px 0;
+  display: flex;
+}
+/* .... */
+.technology {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  column-gap: 10px;
+}
+
+.technology-side-left ul {
+  list-style: none;
+  width: 100%;
+}
+.technology-side-right ul {
+  list-style: none;
+  width: 100%;
+}
+.technology-side-left ul li {
+  padding: 5px;
+  margin: 0px 5px;
+}
+.technology-side-right ul li {
+  padding: 5px;
+  margin: 0px 5px;
+}
+/* section article */
+.section-article {
+  margin-top: 20px;
+}
+.main-content p {
+  text-align: justify;
+}
