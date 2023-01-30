@@ -133,17 +133,31 @@
 }
 
 .button-post {
-  padding: 10px;
-  width: 100%;
-}
-.button-post,
-button {
-  margin-top: 5px;
+  margin-top: 10px;
   display: flex;
   justify-content: right;
+}
+.button-post button {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(229, 92%, 40%);
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+.button-post button:hover {
+  background-color: hwb(229 5% 41%);
+}
+
+/* .button-post button {
+  border: none;
+  background-color: lightblue;
+  margin-top: 5px;
+
   padding: 5px;
   height: 30px;
-}
+} */
 
 /* container project */
 .container-project {
@@ -168,13 +182,13 @@ button {
   height: auto;
   column-gap: 20px;
 }
-.card-statis {
+/* .card-statis {
   width: 340px;
-  height: 650px;
+  height: 100px;
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
-}
+} */
 .header-blog {
   width: 100%;
 }
@@ -205,10 +219,11 @@ button {
 }
 
 .card-dinamis {
+  overflow: auto;
   padding: 10px;
   margin-top: 20px;
-  width: 30%;
-  height: 450px;
+  width: 350px;
+  height: 500px;
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -224,10 +239,54 @@ button {
 }
 
 /* buttton group */
+
 .group-button {
-  padding: 10px;
   padding-left: 10px;
   display: flex;
   column-gap: 10px;
   justify-content: left;
+}
+.editButton {
+  cursor: pointer;
+  background-color: hsl(122, 39%, 40%);
+  color: white;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  align-items: center;
+}
+.deleteButton {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  width: 100px;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  align-items: center;
+}
+/*  */
+.deleteButton:hover {
+  background-color: #d13939;
+}
+
+.deleteButton:active {
+  background-color: #5d1616;
+  box-shadow: 0 5px rgb(144, 37, 37);
+  transform: translateY(4px);
+}
+/*  */
+.editButton:hover {
+  background-color: hsl(122, 47%, 49%);
+}
+
+.editButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

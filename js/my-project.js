@@ -5,11 +5,12 @@ let datas = [
     imagesProject: "./assets/images/blog-img-detail.png",
     namaProject: "Kecanggihan Teknologi di Era Modern",
     next: '<li><img src="./assets/images/teknology/next-logo.svg" alt="" width="50px" height="50" /></li>',
-    node: "",
+    node: '<li><img src="./assets/images/teknology/node-logo.svg" alt="" width="50px" height="50" /></li>',
     react: "",
     startDate: "2023-01-19",
     textAreaInput: "Pernahkah kalian merasa terkagum-kagum dengan teknologi masa depan yang kalian jumpai pada film-film sci-fi.",
     type: "",
+    link: "./blog-content.html",
   },
 ];
 
@@ -94,7 +95,7 @@ function showData() {
     <div class="card-dinamis" id="dinamisCard">
             <div class="image" id="imageProject"><img src="${datas[index].imagesProject}" alt="" /></div>
             <div class="header-blog">
-              <h1 id="judul-blog"><a href="./blog-content.html">${datas[index].namaProject}</a></h1>
+              <h1 id="judul-blog"><a href="${datas[index].link}">${datas[index].namaProject}</a></h1>
               <p id="deskrip-judul">3 bulan</p>
             </div>
             <div class="judul-blog">
@@ -110,7 +111,7 @@ function showData() {
             </div>
             <div class="group-button">
             <div class="editButton">
-              <button class="">edit</button>
+              <button class="editButton">edit</button>
             </div>
             <div class="deleteButton">
               <button class="deleteButton">delete</button>
