@@ -95,11 +95,13 @@ function showData() {
     <div class="card-dinamis" id="dinamisCard">
             <div class="image" id="imageProject"><img src="${datas[index].imagesProject}" alt="" /></div>
             <div class="header-blog">
-              <h1 id="judul-blog"><a href="${datas[index].link}">${datas[index].namaProject}</a></h1>
-              <p id="deskrip-judul">3 bulan</p>
+              <h1 class="judul-blog"><a href="${datas[index].link}">${datas[index].namaProject}</a></h1>
             </div>
-            <div class="judul-blog">
-              <p class="deskrip-blog">${datas[index].textAreaInput}</p>
+            <div class="deskrip-waktu" >
+              <p>3 bulan</p>
+            </div>
+            <div class="article-blog">
+              <p>${datas[index].textAreaInput}</p>
             </div>
             <div class="technology">
               <ul>

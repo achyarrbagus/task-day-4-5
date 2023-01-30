@@ -1,3 +1,19 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.fo-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.fo-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.fo-toboto-slab {
+  font-family: "Roboto Slab", serif;
+}
+
+/*  */
+
 * {
   margin: 0;
   font-family: "arial";
@@ -6,7 +22,7 @@
 /* navbar   */
 
 nav {
-  background-color: orange;
+  background-color: rgb(0, 0, 0);
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,9 +46,7 @@ a {
 }
 
 /* akhir navbar */
-body {
-  background-color: #e2e6ea;
-}
+
 /* main content */
 .main-content {
   height: 100vh;

@@ -1,3 +1,18 @@
+/*  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.fo-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.fo-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.fo-toboto-slab {
+  font-family: "Roboto Slab", serif;
+}
+/*  */
 * {
   margin: 0;
   padding: 0;
@@ -140,14 +155,14 @@
 .button-post button {
   cursor: pointer;
   color: white;
-  background-color: hsl(229, 92%, 40%);
+  background-color: hsl(0, 0%, 0%);
   width: 100px;
   height: 30px;
   border-radius: 20px;
   border: none;
 }
 .button-post button:hover {
-  background-color: hwb(229 5% 41%);
+  background-color: hwb(0 68% 27%);
 }
 
 /* .button-post button {
@@ -197,11 +212,13 @@
   font-size: 15px;
 }
 .image {
+  height: 300px;
   display: flex;
   justify-content: center;
   width: 100%;
 }
 .image img {
+  background-position: center;
   width: 100%;
   display: block;
   background-repeat: no-repeat;
@@ -219,20 +236,47 @@
 }
 
 .card-dinamis {
+  border-radius: 10px;
   overflow: auto;
   padding: 10px;
   margin-top: 20px;
-  width: 350px;
-  height: 500px;
+  width: 450px;
+  height: 600px;
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* technology */
+.judul-blog {
+  height: 50px;
+  width: auto;
+}
+.judul-blog a {
+  font-size: 20px;
+  color: black;
+}
+.judul-blog a:hover {
+  color: gray;
+}
+.deskrip-waktu {
+  height: 30px;
+  width: auto;
+}
+.deskrip-waktu p {
+  font-size: 18px;
+}
+.article-blog {
+  text-align: justify;
+  font-size: 20px;
+  overflow: hidden;
+  height: 80px;
+}
 .technology ul {
+  margin-top: 10px;
+  height: 50px;
   padding-left: 10px;
   display: flex;
   list-style: none;
-  column-gap: 30px;
+  column-gap: 20px;
 }
 .technology ul li {
   display: flex;
@@ -241,14 +285,15 @@
 /* buttton group */
 
 .group-button {
-  padding-left: 10px;
+  height: 30px;
+  margin-top: 10px;
   display: flex;
   column-gap: 10px;
   justify-content: left;
 }
 .editButton {
   cursor: pointer;
-  background-color: hsl(122, 39%, 40%);
+  background-color: hsl(0, 0%, 0%);
   color: white;
   width: 100px;
   display: flex;
@@ -282,11 +327,11 @@
 }
 /*  */
 .editButton:hover {
-  background-color: hsl(122, 47%, 49%);
+  background-color: hsl(0, 3%, 35%);
 }
 
 .editButton:active {
-  background-color: #3e8e41;
+  background-color: #0e110e;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

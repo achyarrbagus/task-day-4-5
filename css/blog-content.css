@@ -1,3 +1,21 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.fo-toboto-slab {
+  font-family: "Roboto Slab", serif;
+}
+.font-article {
+  font-family: "Times New Roman", Times, serif;
+}
+/*  */
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +25,14 @@ body {
   margin-top: 150px;
 }
 article {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
-  width: 60%;
+  width: 80%;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   flex-wrap: wrap;
-  height: 150vh;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 100px;
 }
 .title-blog {
   width: 100%;
@@ -23,55 +42,54 @@ article {
 }
 .header {
   display: flex;
-
   justify-content: center;
   height: auto;
-  column-gap: 10px;
 }
 .header .section-left {
   flex: 60%;
   justify-content: left;
   display: flex;
-  background-color: bisque;
 }
 .section-left img {
   width: 100%;
 }
+
 .header .section-right {
-  flex: 30%;
-  height: 300px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+
+  font-size: 25px;
+  flex: 40%;
+  display: flexbox;
+  align-items: center;
 }
 .duration-section {
-  margin: 20px 0;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+.duration-section-detail {
+  padding: 0 50px;
+}
+.duration-section-clock {
+  padding: 0 50px;
 }
 .section-technology {
-  margin: 10px 0;
+  margin-top: 40px;
+  display: flexbox;
+  padding: 0 50px;
+}
+.technologies-header {
+  display: flex;
+  width: 100%;
+}
+.technologie-choice ul {
+  padding: 20px 0;
+  list-style: none;
+  column-gap: 30px;
   display: flex;
 }
 /* .... */
-.technology {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  column-gap: 10px;
-}
 
-.technology-side-left ul {
-  list-style: none;
-  width: 100%;
-}
-.technology-side-right ul {
-  list-style: none;
-  width: 100%;
-}
-.technology-side-left ul li {
-  padding: 5px;
-  margin: 0px 5px;
-}
-.technology-side-right ul li {
-  padding: 5px;
-  margin: 0px 5px;
-}
 /* section article */
 .section-article {
   margin-top: 20px;
