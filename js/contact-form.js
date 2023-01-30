@@ -29,7 +29,8 @@ function formValidation(nama, email, numberPhone, subject, textArea) {
   // }
 }
 
-function submitButton() {
+function submitButton(event) {
+  event.preventDefault();
   //
   let nama = document.getElementById("nama").value;
   let email = document.getElementById("email").value;
