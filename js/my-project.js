@@ -3,7 +3,7 @@ let datas = [
   {
     endDate: "2023-01-26",
     imagesProject: "./assets/images/blog-img-detail.png",
-    namaProject: "Kecanggihan Teknologi di Era Modern",
+    namaProject: "Pasar Coding di Indonesia Dinilai Masih Menjanjikan",
     next: '<li><img src="./assets/images/teknology/next-logo.svg" alt="" width="50px" height="50" /></li>',
     node: '<li><img src="./assets/images/teknology/node-logo.svg" alt="" width="50px" height="50" /></li>',
     react: "",
